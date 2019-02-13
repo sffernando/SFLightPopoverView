@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AB13F3B21FAF150009778F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB13F3A21FAF150009778F7 /* AppDelegate.m */; };
+		7AB13F3E21FAF150009778F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB13F3D21FAF150009778F7 /* ViewController.m */; };
+		7AB13F4121FAF150009778F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB13F3F21FAF150009778F7 /* Main.storyboard */; };
+		7AB13F4321FAF153009778F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB13F4221FAF153009778F7 /* Assets.xcassets */; };
+		7AB13F4621FAF153009778F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB13F4421FAF153009778F7 /* LaunchScreen.storyboard */; };
+		7AB13F4921FAF153009778F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB13F4821FAF153009778F7 /* main.m */; };
+		7AB13F5321FAF153009778F7 /* SFLightPopoverViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB13F5221FAF153009778F7 /* SFLightPopoverViewTests.m */; };
+		7AB13F5E21FAF153009778F7 /* SFLightPopoverViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB13F5D21FAF153009778F7 /* SFLightPopoverViewUITests.m */; };
+		7AB13F6F21FAF724009778F7 /* SFLightPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB13F6E21FAF724009778F7 /* SFLightPopoverView.m */; };
+		7AB13F7221FAF74D009778F7 /* SFLightPopoverViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB13F7121FAF74D009778F7 /* SFLightPopoverViewCell.m */; };
+		7AB13F7421FB2300009778F7 /* sources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7AB13F7321FB2300009778F7 /* sources.bundle */; };
+		7AB9CD3A220037DA0065F227 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9CD22220037DA0065F227 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		7AB9CD3B220037DA0065F227 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9CD2B220037DA0065F227 /* ViewController+MASAdditions.m */; };
+		7AB9CD3C220037DA0065F227 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9CD2F220037DA0065F227 /* MASCompositeConstraint.m */; };
+		7AB9CD3D220037DA0065F227 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9CD30220037DA0065F227 /* MASConstraintMaker.m */; };
+		7AB9CD3E220037DA0065F227 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9CD31220037DA0065F227 /* MASLayoutConstraint.m */; };
+		7AB9CD3F220037DA0065F227 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9CD32220037DA0065F227 /* NSArray+MASAdditions.m */; };
+		7AB9CD40220037DA0065F227 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9CD33220037DA0065F227 /* View+MASAdditions.m */; };
+		7AB9CD41220037DA0065F227 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9CD36220037DA0065F227 /* MASConstraint.m */; };
+		7AB9CD42220037DA0065F227 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9CD38220037DA0065F227 /* MASViewConstraint.m */; };
+		7AB9CD43220037DA0065F227 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9CD39220037DA0065F227 /* MASViewAttribute.m */; };
+		7AB9CD472200414E0065F227 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9CD452200414E0065F227 /* UIView+YYAdd.m */; };
+		7AB9CD4A22004BE00065F227 /* SFTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB9CD4922004BE00065F227 /* SFTestModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AB13F4F21FAF153009778F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AB13F2E21FAF150009778F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB13F3521FAF150009778F7;
+			remoteInfo = SFLightPopoverView;
+		};
+		7AB13F5A21FAF153009778F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AB13F2E21FAF150009778F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AB13F3521FAF150009778F7;
+			remoteInfo = SFLightPopoverView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AB13F3621FAF150009778F7 /* SFLightPopoverView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFLightPopoverView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB13F3921FAF150009778F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7AB13F3A21FAF150009778F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7AB13F3C21FAF150009778F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7AB13F3D21FAF150009778F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7AB13F4021FAF150009778F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AB13F4221FAF153009778F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AB13F4521FAF153009778F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AB13F4721FAF153009778F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB13F4821FAF153009778F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AB13F4E21FAF153009778F7 /* SFLightPopoverViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFLightPopoverViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB13F5221FAF153009778F7 /* SFLightPopoverViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFLightPopoverViewTests.m; sourceTree = "<group>"; };
+		7AB13F5421FAF153009778F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB13F5921FAF153009778F7 /* SFLightPopoverViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFLightPopoverViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB13F5D21FAF153009778F7 /* SFLightPopoverViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFLightPopoverViewUITests.m; sourceTree = "<group>"; };
+		7AB13F5F21FAF153009778F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB13F6C21FAF6DE009778F7 /* SFLightPopoverViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFLightPopoverViewHeader.h; sourceTree = "<group>"; };
+		7AB13F6D21FAF724009778F7 /* SFLightPopoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFLightPopoverView.h; sourceTree = "<group>"; };
+		7AB13F6E21FAF724009778F7 /* SFLightPopoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFLightPopoverView.m; sourceTree = "<group>"; };
+		7AB13F7021FAF74D009778F7 /* SFLightPopoverViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFLightPopoverViewCell.h; sourceTree = "<group>"; };
+		7AB13F7121FAF74D009778F7 /* SFLightPopoverViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFLightPopoverViewCell.m; sourceTree = "<group>"; };
+		7AB13F7321FB2300009778F7 /* sources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = sources.bundle; sourceTree = "<group>"; };
+		7AB9CD21220037DA0065F227 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		7AB9CD22220037DA0065F227 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		7AB9CD23220037DA0065F227 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		7AB9CD24220037DA0065F227 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		7AB9CD25220037DA0065F227 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		7AB9CD26220037DA0065F227 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		7AB9CD27220037DA0065F227 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		7AB9CD28220037DA0065F227 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		7AB9CD29220037DA0065F227 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		7AB9CD2A220037DA0065F227 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		7AB9CD2B220037DA0065F227 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		7AB9CD2C220037DA0065F227 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		7AB9CD2D220037DA0065F227 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		7AB9CD2E220037DA0065F227 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		7AB9CD2F220037DA0065F227 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		7AB9CD30220037DA0065F227 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		7AB9CD31220037DA0065F227 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		7AB9CD32220037DA0065F227 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		7AB9CD33220037DA0065F227 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		7AB9CD34220037DA0065F227 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		7AB9CD35220037DA0065F227 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		7AB9CD36220037DA0065F227 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		7AB9CD37220037DA0065F227 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		7AB9CD38220037DA0065F227 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		7AB9CD39220037DA0065F227 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		7AB9CD452200414E0065F227 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		7AB9CD462200414E0065F227 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		7AB9CD4822004BE00065F227 /* SFTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFTestModel.h; sourceTree = "<group>"; };
+		7AB9CD4922004BE00065F227 /* SFTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFTestModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AB13F3321FAF150009778F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB13F4B21FAF153009778F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB13F5621FAF153009778F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AB13F2D21FAF150009778F7 = {
+			isa = PBXGroup;
+			children = (
+				7AB13F3821FAF150009778F7 /* SFLightPopoverView */,
+				7AB13F5121FAF153009778F7 /* SFLightPopoverViewTests */,
+				7AB13F5C21FAF153009778F7 /* SFLightPopoverViewUITests */,
+				7AB13F3721FAF150009778F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AB13F3721FAF150009778F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AB13F3621FAF150009778F7 /* SFLightPopoverView.app */,
+				7AB13F4E21FAF153009778F7 /* SFLightPopoverViewTests.xctest */,
+				7AB13F5921FAF153009778F7 /* SFLightPopoverViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AB13F3821FAF150009778F7 /* SFLightPopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				7AB13F3921FAF150009778F7 /* AppDelegate.h */,
+				7AB13F3A21FAF150009778F7 /* AppDelegate.m */,
+				7AB13F3C21FAF150009778F7 /* ViewController.h */,
+				7AB13F3D21FAF150009778F7 /* ViewController.m */,
+				7AB13F3F21FAF150009778F7 /* Main.storyboard */,
+				7AB13F4221FAF153009778F7 /* Assets.xcassets */,
+				7AB13F4421FAF153009778F7 /* LaunchScreen.storyboard */,
+				7AB13F4721FAF153009778F7 /* Info.plist */,
+				7AB13F4821FAF153009778F7 /* main.m */,
+				7AB13F6B21FAF6A0009778F7 /* SFLightPopoverView */,
+				7AB9CD20220037DA0065F227 /* Masonry */,
+				7AB9CD442200414E0065F227 /* UIView+YYAdd */,
+				7AB9CD4822004BE00065F227 /* SFTestModel.h */,
+				7AB9CD4922004BE00065F227 /* SFTestModel.m */,
+			);
+			path = SFLightPopoverView;
+			sourceTree = "<group>";
+		};
+		7AB13F5121FAF153009778F7 /* SFLightPopoverViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AB13F5221FAF153009778F7 /* SFLightPopoverViewTests.m */,
+				7AB13F5421FAF153009778F7 /* Info.plist */,
+			);
+			path = SFLightPopoverViewTests;
+			sourceTree = "<group>";
+		};
+		7AB13F5C21FAF153009778F7 /* SFLightPopoverViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AB13F5D21FAF153009778F7 /* SFLightPopoverViewUITests.m */,
+				7AB13F5F21FAF153009778F7 /* Info.plist */,
+			);
+			path = SFLightPopoverViewUITests;
+			sourceTree = "<group>";
+		};
+		7AB13F6B21FAF6A0009778F7 /* SFLightPopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				7AB13F6C21FAF6DE009778F7 /* SFLightPopoverViewHeader.h */,
+				7AB13F6D21FAF724009778F7 /* SFLightPopoverView.h */,
+				7AB13F6E21FAF724009778F7 /* SFLightPopoverView.m */,
+				7AB13F7021FAF74D009778F7 /* SFLightPopoverViewCell.h */,
+				7AB13F7121FAF74D009778F7 /* SFLightPopoverViewCell.m */,
+				7AB13F7321FB2300009778F7 /* sources.bundle */,
+			);
+			path = SFLightPopoverView;
+			sourceTree = "<group>";
+		};
+		7AB9CD20220037DA0065F227 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				7AB9CD21220037DA0065F227 /* MASCompositeConstraint.h */,
+				7AB9CD22220037DA0065F227 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				7AB9CD23220037DA0065F227 /* MASConstraint+Private.h */,
+				7AB9CD24220037DA0065F227 /* MASLayoutConstraint.h */,
+				7AB9CD25220037DA0065F227 /* NSArray+MASShorthandAdditions.h */,
+				7AB9CD26220037DA0065F227 /* MASConstraintMaker.h */,
+				7AB9CD27220037DA0065F227 /* View+MASAdditions.h */,
+				7AB9CD28220037DA0065F227 /* NSArray+MASAdditions.h */,
+				7AB9CD29220037DA0065F227 /* MASUtilities.h */,
+				7AB9CD2A220037DA0065F227 /* MASViewAttribute.h */,
+				7AB9CD2B220037DA0065F227 /* ViewController+MASAdditions.m */,
+				7AB9CD2C220037DA0065F227 /* MASViewConstraint.h */,
+				7AB9CD2D220037DA0065F227 /* MASConstraint.h */,
+				7AB9CD2E220037DA0065F227 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				7AB9CD2F220037DA0065F227 /* MASCompositeConstraint.m */,
+				7AB9CD30220037DA0065F227 /* MASConstraintMaker.m */,
+				7AB9CD31220037DA0065F227 /* MASLayoutConstraint.m */,
+				7AB9CD32220037DA0065F227 /* NSArray+MASAdditions.m */,
+				7AB9CD33220037DA0065F227 /* View+MASAdditions.m */,
+				7AB9CD34220037DA0065F227 /* View+MASShorthandAdditions.h */,
+				7AB9CD35220037DA0065F227 /* Masonry.h */,
+				7AB9CD36220037DA0065F227 /* MASConstraint.m */,
+				7AB9CD37220037DA0065F227 /* ViewController+MASAdditions.h */,
+				7AB9CD38220037DA0065F227 /* MASViewConstraint.m */,
+				7AB9CD39220037DA0065F227 /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		7AB9CD442200414E0065F227 /* UIView+YYAdd */ = {
+			isa = PBXGroup;
+			children = (
+				7AB9CD452200414E0065F227 /* UIView+YYAdd.m */,
+				7AB9CD462200414E0065F227 /* UIView+YYAdd.h */,
+			);
+			path = "UIView+YYAdd";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AB13F3521FAF150009778F7 /* SFLightPopoverView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AB13F6221FAF153009778F7 /* Build configuration list for PBXNativeTarget "SFLightPopoverView" */;
+			buildPhases = (
+				7AB13F3221FAF150009778F7 /* Sources */,
+				7AB13F3321FAF150009778F7 /* Frameworks */,
+				7AB13F3421FAF150009778F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFLightPopoverView;
+			productName = SFLightPopoverView;
+			productReference = 7AB13F3621FAF150009778F7 /* SFLightPopoverView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AB13F4D21FAF153009778F7 /* SFLightPopoverViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AB13F6521FAF153009778F7 /* Build configuration list for PBXNativeTarget "SFLightPopoverViewTests" */;
+			buildPhases = (
+				7AB13F4A21FAF153009778F7 /* Sources */,
+				7AB13F4B21FAF153009778F7 /* Frameworks */,
+				7AB13F4C21FAF153009778F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AB13F5021FAF153009778F7 /* PBXTargetDependency */,
+			);
+			name = SFLightPopoverViewTests;
+			productName = SFLightPopoverViewTests;
+			productReference = 7AB13F4E21FAF153009778F7 /* SFLightPopoverViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AB13F5821FAF153009778F7 /* SFLightPopoverViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AB13F6821FAF153009778F7 /* Build configuration list for PBXNativeTarget "SFLightPopoverViewUITests" */;
+			buildPhases = (
+				7AB13F5521FAF153009778F7 /* Sources */,
+				7AB13F5621FAF153009778F7 /* Frameworks */,
+				7AB13F5721FAF153009778F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AB13F5B21FAF153009778F7 /* PBXTargetDependency */,
+			);
+			name = SFLightPopoverViewUITests;
+			productName = SFLightPopoverViewUITests;
+			productReference = 7AB13F5921FAF153009778F7 /* SFLightPopoverViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AB13F2E21FAF150009778F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Fernando;
+				TargetAttributes = {
+					7AB13F3521FAF150009778F7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7AB13F4D21FAF153009778F7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7AB13F3521FAF150009778F7;
+					};
+					7AB13F5821FAF153009778F7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7AB13F3521FAF150009778F7;
+					};
+				};
+			};
+			buildConfigurationList = 7AB13F3121FAF150009778F7 /* Build configuration list for PBXProject "SFLightPopoverView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AB13F2D21FAF150009778F7;
+			productRefGroup = 7AB13F3721FAF150009778F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AB13F3521FAF150009778F7 /* SFLightPopoverView */,
+				7AB13F4D21FAF153009778F7 /* SFLightPopoverViewTests */,
+				7AB13F5821FAF153009778F7 /* SFLightPopoverViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AB13F3421FAF150009778F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB13F4621FAF153009778F7 /* LaunchScreen.storyboard in Resources */,
+				7AB13F4321FAF153009778F7 /* Assets.xcassets in Resources */,
+				7AB13F7421FB2300009778F7 /* sources.bundle in Resources */,
+				7AB13F4121FAF150009778F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB13F4C21FAF153009778F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB13F5721FAF153009778F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AB13F3221FAF150009778F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB13F3E21FAF150009778F7 /* ViewController.m in Sources */,
+				7AB9CD4A22004BE00065F227 /* SFTestModel.m in Sources */,
+				7AB13F4921FAF153009778F7 /* main.m in Sources */,
+				7AB9CD3E220037DA0065F227 /* MASLayoutConstraint.m in Sources */,
+				7AB13F6F21FAF724009778F7 /* SFLightPopoverView.m in Sources */,
+				7AB13F7221FAF74D009778F7 /* SFLightPopoverViewCell.m in Sources */,
+				7AB9CD43220037DA0065F227 /* MASViewAttribute.m in Sources */,
+				7AB9CD3F220037DA0065F227 /* NSArray+MASAdditions.m in Sources */,
+				7AB9CD3C220037DA0065F227 /* MASCompositeConstraint.m in Sources */,
+				7AB9CD472200414E0065F227 /* UIView+YYAdd.m in Sources */,
+				7AB9CD3D220037DA0065F227 /* MASConstraintMaker.m in Sources */,
+				7AB9CD40220037DA0065F227 /* View+MASAdditions.m in Sources */,
+				7AB9CD3B220037DA0065F227 /* ViewController+MASAdditions.m in Sources */,
+				7AB13F3B21FAF150009778F7 /* AppDelegate.m in Sources */,
+				7AB9CD42220037DA0065F227 /* MASViewConstraint.m in Sources */,
+				7AB9CD3A220037DA0065F227 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				7AB9CD41220037DA0065F227 /* MASConstraint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB13F4A21FAF153009778F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB13F5321FAF153009778F7 /* SFLightPopoverViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB13F5521FAF153009778F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB13F5E21FAF153009778F7 /* SFLightPopoverViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AB13F5021FAF153009778F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AB13F3521FAF150009778F7 /* SFLightPopoverView */;
+			targetProxy = 7AB13F4F21FAF153009778F7 /* PBXContainerItemProxy */;
+		};
+		7AB13F5B21FAF153009778F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AB13F3521FAF150009778F7 /* SFLightPopoverView */;
+			targetProxy = 7AB13F5A21FAF153009778F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AB13F3F21FAF150009778F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AB13F4021FAF150009778F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AB13F4421FAF153009778F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AB13F4521FAF153009778F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AB13F6021FAF153009778F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7AB13F6121FAF153009778F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AB13F6321FAF153009778F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SFLightPopoverView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernano.cn.SFLightPopoverView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AB13F6421FAF153009778F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SFLightPopoverView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernano.cn.SFLightPopoverView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7AB13F6621FAF153009778F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SFLightPopoverViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernano.cn.SFLightPopoverViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFLightPopoverView.app/SFLightPopoverView";
+			};
+			name = Debug;
+		};
+		7AB13F6721FAF153009778F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SFLightPopoverViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernano.cn.SFLightPopoverViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFLightPopoverView.app/SFLightPopoverView";
+			};
+			name = Release;
+		};
+		7AB13F6921FAF153009778F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SFLightPopoverViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernano.cn.SFLightPopoverViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SFLightPopoverView;
+			};
+			name = Debug;
+		};
+		7AB13F6A21FAF153009778F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SFLightPopoverViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fernano.cn.SFLightPopoverViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SFLightPopoverView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AB13F3121FAF150009778F7 /* Build configuration list for PBXProject "SFLightPopoverView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB13F6021FAF153009778F7 /* Debug */,
+				7AB13F6121FAF153009778F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AB13F6221FAF153009778F7 /* Build configuration list for PBXNativeTarget "SFLightPopoverView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB13F6321FAF153009778F7 /* Debug */,
+				7AB13F6421FAF153009778F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AB13F6521FAF153009778F7 /* Build configuration list for PBXNativeTarget "SFLightPopoverViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB13F6621FAF153009778F7 /* Debug */,
+				7AB13F6721FAF153009778F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AB13F6821FAF153009778F7 /* Build configuration list for PBXNativeTarget "SFLightPopoverViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB13F6921FAF153009778F7 /* Debug */,
+				7AB13F6A21FAF153009778F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AB13F2E21FAF150009778F7 /* Project object */;
+}
